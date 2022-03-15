@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en" class="stopScrolling">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>بوابه ينبع</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="assets/css/fontello-embedded.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+  <script src="./assets/js/svg-loader.min.js" async></script>
+  <link rel="stylesheet" href="./assets/css/aos.css" />
+
+
+  <link href="assets/css/style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="loadDivContainer">
+        <div class="loadDiv">
+            <img src="./assets/imgs/Pulse-1s-200px.gif" alt="load image">
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-sm p-0" >
+        <div class="row m-0 w-100" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">
+            <div class="col-lg-6 col-12 logoDiv" >
+                <div class="d-flex align-items-center justify-content-start justify-content-sm-center h-100">
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/imgs/logo-w3-1.png" alt="بوابة ينبع" class="logoImage">
+                    </a>
+                    <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="icon-menu"></i>
+                    </button>
+                </div>
+                
+            </div>
+                <div class="collapse navbar-collapse py-3 py-lg-0 col-lg-6 col-12 menuDiv" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-lg-5 m-auto">
+                        <li class="nav-item ml-xl-3 ml-lg-2 ml-3">
+                            <a class="nav-link navbarAnchors" href="#">الرئيسية</a>
+                        </li>
+                        <li class="nav-item ml-xl-3 ml-lg-2 ml-3">
+                            <a class="nav-link navbarAnchors" href="aboutUs.html">من نحن</a>
+                        </li>
+                        <li class="nav-item ml-xl-3 ml-lg-2 ml-3">
+                            <a class="nav-link navbarAnchors" href="#">اعلن معنا</a>
+                        </li>
+                        <li class="nav-item ml-xl-4 ml-lg-2 ml-4">
+                            <a class="nav-link navbarAnchors" href="#">اتصل بنا</a>
+                        </li>
+                        <li class="nav-item d-flex flex-column">
+                            <a class="nav-link navbarAnchorsSearch " href="#" onclick="showInputSearch()">
+                                <svg data-src="./assets/imgs/search.svg" class="navbarSearchIcon"></svg>
+                            </a>
+                            <form action="index.html" >
+                                <input type="text" class="form-control searchInput2 showInput" placeholder="كلمات البحث">
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+
+    <header>
+        <div id="headerCarousal" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-6 p-0 headerCarousalContent" >
+                            <div class="headerCarousalContentContainer mr-auto" data-aos-duration="600" data-aos-once="true"  data-aos="flip-up">
+                                <div class="d-flex flex-column align-items-center align-items-md-start justify-content-start">
+                                    <h1 class="carousalHeader1">ينبع الصناعية</h1>
+                                    <h2 class="carousalHeader2">ينبع الصناعية</h2>
+                                    <p class="carousalPara">اول مدينة زكية فى الوطن العربى حيث البنية التحتية الالكترونية المتطورة وأن الدينه يتبع ...</p>
+                                    <div class="moreDiv">
+                                        <a href="#" class="btn btn-outline-light">المزيد</a>
+                                    </div>
+                                </div>
+                                <div class="carousalControllerDiv d-flex justify-content-center justify-content-md-end">
+                                    <a class="carousel-control-next" href="#headerCarousal" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                    <a class="carousel-control-prev" href="#headerCarousal" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 p-0">
+                            <img src="./assets/imgs/Rectangle4.jpg" class="d-block w-100 h-100" alt="carousal image">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="row">
+                        <div class="col-md-6 p-0 headerCarousalContent" >
+                            <div class="headerCarousalContentContainer mr-auto" data-aos-duration="600" data-aos-once="true"  data-aos="flip-up">
+                                <div class="d-flex flex-column align-items-center align-items-md-start justify-content-start">
+                                    <h1 class="carousalHeader1">ينبع البحر</h1>
+                                    <h2 class="carousalHeader2">ينبع البحر</h2>
+                                    <p class="carousalPara">اول مدينة زكية فى الوطن العربى حيث البنية التحتية الالكترونية المتطورة وأن الدينه يتبع ...</p>
+                                    <div class="moreDiv">
+                                        <a href="#" class="btn btn-outline-light">المزيد</a>
+                                    </div>
+                                </div>
+                                <div class="carousalControllerDiv d-flex justify-content-center justify-content-md-end">
+                                    <a class="carousel-control-next" href="#headerCarousal" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                    <a class="carousel-control-prev" href="#headerCarousal" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 p-0">
+                            <img src="./assets/imgs/Rectangle4.jpg" class="d-block w-100 h-100" alt="carousal image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="guideSection">
+        <div class="container">
+            <div class="searchDiv" data-aos-duration="600" data-aos-once="true"  data-aos="fade-up" >
+                <ul class="searchFilter d-flex justify-content-center">
+                    <li class="searchFilterLi">
+                        <a href="#" class="searchFilterAnchor active">الكل</a>
+                    </li>
+                    <li class="searchFilterLi">
+                        <a href="#" class="searchFilterAnchor">ينبع الصناعية</a>
+                    </li>
+                    <li class="searchFilterLi">
+                        <a href="#" class="searchFilterAnchor">ينبع البحر</a>
+                    </li>
+                </ul>
+                <form action="index.html" class="searchForm d-flex">
+                    <input type="text" class="form-control searchInput" placeholder="كلمات البحث">
+                    <a class="btn searchFormButton" >
+                        <svg data-src="./assets/imgs/search2.svg"></svg>
+
+                    </a>
+                </form>
+            </div>
+            <div class="guideContent">
+                <h2 class="guideContentHeader text-center">دليل ينبع الالكترونى</h2>
+                <div class="guideContentCategories">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 pb-4" data-aos-duration="600" data-aos-once="true"  data-aos="fade-up"  data-aos-delay="100">
+                            <a href="#" class="guideContentCategory d-flex flex-column align-items-center py-4 active">
+                                <svg data-src="./assets/imgs/beach.svg" class="guideCategoryImage"></svg>
+                                <h2 class="guideContentTitle">ترفيه وسياحة</h2>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 pb-4" data-aos-duration="600" data-aos-once="true"  data-aos="fade-up"  data-aos-delay="200" >
+                            <a href="#" class="guideContentCategory d-flex flex-column align-items-center py-4">
+                                <svg data-src="./assets/imgs/burger.svg" class="guideCategoryImage"></svg>
+                                <h2 class="guideContentTitle">اسواق ومطاعم</h2>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 pb-4" data-aos-duration="600" data-aos-once="true"  data-aos="fade-up"  data-aos-delay="300">
+                            <a href="#" class="guideContentCategory d-flex flex-column align-items-center py-4">
+                                <svg data-src="./assets/imgs/woman.svg" class="guideCategoryImage"></svg>
+                                <h2 class="guideContentTitle">عالم المرأة</h2>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 pb-4" data-aos-duration="600" data-aos-once="true"  data-aos="fade-up"  data-aos-delay="400">
+                            <a href="#" class="guideContentCategory d-flex flex-column align-items-center py-4">
+                                <svg data-src="./assets/imgs/shopping-cart.svg" class="guideCategoryImage"></svg>
+                                <h2 class="guideContentTitle">تجارة منزلية</h2>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 pb-4" data-aos-duration="600" data-aos-once="true"  data-aos="fade-up"  data-aos-delay="100">
+                            <a href="#" class="guideContentCategory d-flex flex-column align-items-center py-4">
+                                <svg data-src="./assets/imgs/wallet.svg" class="guideCategoryImage"></svg>
+                                <h2 class="guideContentTitle">خدمات مالية</h2>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 pb-4" data-aos-duration="600" data-aos-once="true"  data-aos="fade-up"  data-aos-delay="200">
+                            <a href="#" class="guideContentCategory d-flex flex-column align-items-center py-4">
+                                <svg data-src="./assets/varnish.svg" class="guideCategoryImage"></svg>
+
+                                <h2 class="guideContentTitle">تأثيث وتشطيب</h2>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 pb-4" data-aos-duration="600" data-aos-once="true"  data-aos="fade-up"  data-aos-delay="300">
+                            <a href="#" class="guideContentCategory d-flex flex-column align-items-center py-4">
+                                <svg data-src="./assets/imgs/XMLID_1_.svg" class="guideCategoryImage"></svg>
+                                <h2 class="guideContentTitle">شركات ومؤسسات</h2>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 pb-4" data-aos-duration="600" data-aos-once="true"  data-aos="fade-up"  data-aos-delay="400">
+                            <a href="#" class="guideContentCategory d-flex flex-column align-items-center py-4">
+                                <svg data-src="./assets/imgs/book.svg" class="guideCategoryImage"></svg>
+                                <h2 class="guideContentTitle">تعليم وثقافة</h2>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 pb-4" data-aos-duration="600" data-aos-once="true"  data-aos="fade-up"  data-aos-delay="100">
+                            <a href="#" class="guideContentCategory d-flex flex-column align-items-center py-4">
+                                <svg data-src="./assets/imgs/support.svg" class="guideCategoryImage"></svg>
+                                <h2 class="guideContentTitle">خدمات عامة</h2>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 pb-4" data-aos-duration="600" data-aos-once="true"  data-aos="fade-up"  data-aos-delay="200">
+                            <a href="#" class="guideContentCategory d-flex flex-column align-items-center py-4">
+                                <svg data-src="./assets/imgs/Outline.svg" class="guideCategoryImage"></svg>
+                                <h2 class="guideContentTitle">الطب والصحة</h2>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 pb-4" data-aos-duration="600" data-aos-once="true"  data-aos="fade-up"  data-aos-delay="300">
+                            <a href="#" class="guideContentCategory d-flex flex-column align-items-center py-4">
+                                <svg data-src="./assets/imgs/bank.svg" class="guideCategoryImage"></svg>
+                                <h2 class="guideContentTitle">ادارات حكوية</h2>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 pb-4" data-aos-duration="600" data-aos-once="true"  data-aos="fade-up"  data-aos-delay="400">
+                            <a href="#" class="guideContentCategory d-flex flex-column align-items-center py-4">
+                                <svg data-src="./assets/imgs/Path83.svg" class="guideCategoryImage"></svg>
+                                <h2 class="guideContentTitle">عالم السيارات</h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="advertiseSection1">
+        <div class="container" data-aos-duration="600" data-aos-once="true"  data-aos="flip-down">
+            <a href="#" ><img class="advertiseImage1" src="./assets/imgs/advertise1.png" alt="advertise"></a>
+        </div>
+    </div>
+    
+    <section class="categoryDesc">
+        <div class="container">
+            <div class="categoryHeader">
+                <div class="categoryInfo d-flex align-items-center" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">
+                    <img class="categoryInfoImage ml-1 ml-md-4" src="./assets/imgs/Rectangle21.png" alt="category info image">
+                    <h2 class="categoryInfoHeader">ترفيه وسياحة</h2>
+                    <a href="#" class="btn mr-auto categoryInfoSeeAll" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">مشاهدة الكل</a>
+                </div>
+                <div class="categoriesDiv">
+                    <div class="row">
+                        <div class="col-lg-6 col-12" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">
+                            <div class="categoryImageFull">
+                                <img src="./assets/imgs/Mask-Group1.jpg" alt="category" class="categoryFullImage">
+                                <div class="categoryImageDescFull">
+                                    <div class="categoryTitleFUll">
+                                        ترفيه وسياحة
+                                    </div>
+                                    <h2 class="categoryInfoHeadingFull">خليج المرجان</h2>
+                                    <h2 class="categoryInfoHeadingFull2">كورنيش ينبع</h2>
+                                    <div class="d-flex"><a href="#" class="btn btn-outline-light categoryInfoAnchorFull m-auto">التفاصيل</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">
+                            <div class="categoryImageSide ">
+                                <img src="./assets/imgs/Mask-Group3.jpg" alt="Category" class="categorySideImage">
+                                <div class="categoryImageSideInfo text-right">
+                                    <h2 class="categoryImageSideHeadingname">منتجع مونفيك</h2>
+                                    <h2 class="categoryImageSideHeadingCat">ترفيه وسياحة</h2>
+                                    <h3 class="categoryImageSideHeadingLocation">حى الصبح - جزيرة المحار</h3>
+                                </div>
+                                <div class="moreDetailsDiv">
+                                    <a href="#" class="btn moreDetailsAnchor">التفاصيل</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">
+                            <div class="categoryImageSide">
+                                <img src="./assets/imgs/Mask-Group2.jpg" alt="Category" class="categorySideImage">
+                                <div class="categoryImageSideInfo text-right">
+                                    <h2 class="categoryImageSideHeadingname">كورنيش ينبع</h2>
+                                    <h2 class="categoryImageSideHeadingCat">ترفيه وسياحة</h2>
+                                    <h3 class="categoryImageSideHeadingLocation">حى الصبح - جزيرة المحار</h3>
+                                </div>
+                                <div class="moreDetailsDiv">
+                                    <a href="#" class="btn moreDetailsAnchor">التفاصيل</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="categoryDesc">
+        <div class="container">
+            <div class="categoryHeader">
+                <div class="categoryInfo d-flex align-items-center" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">
+                    <img class="categoryInfoImage ml-1 ml-md-4" src="./assets/imgs/Rectangle21.png" alt="category info image">
+                    <h2 class="categoryInfoHeader">أسواق ومطاعم</h2>
+                    <a href="#" class="btn mr-auto categoryInfoSeeAll" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">مشاهدة الكل</a>
+                </div>
+                <div class="categoriesDiv">
+                    <div class="row">
+                        <div class="col-lg-6 col-12" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">
+                            <div class="categoryImageFull">
+                                <img src="./assets/imgs/image4.jpg" alt="category" class="categoryFullImage">
+                                <div class="categoryImageDescFull">
+                                    <div class="categoryTitleFUll">
+                                        أسواق ومطاعم
+                                    </div>
+                                    <h2 class="categoryInfoHeadingFull">دانة مول</h2>
+                                    <h2 class="categoryInfoHeadingFull2">كورنيش ينبع</h2>
+                                    <div class="d-flex"><a href="#" class="btn btn-outline-light categoryInfoAnchorFull m-auto">التفاصيل</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">
+                            <div class="categoryImageSide">
+                                <img src="./assets/imgs/image2.jpg" alt="Category" class="categorySideImage">
+                                <div class="categoryImageSideInfo text-right">
+                                    <h2 class="categoryImageSideHeadingname">ينبع مول</h2>
+                                    <h2 class="categoryImageSideHeadingCat">اسواق ومطاعم</h2>
+                                    <h3 class="categoryImageSideHeadingLocation">حى الصبح - جزيرة المحار</h3>
+                                </div>
+                                <div class="moreDetailsDiv">
+                                    <a href="#" class="btn moreDetailsAnchor">التفاصيل</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">
+                            <div class="categoryImageSide">
+                                <img src="./assets/imgs/image3.jpg" alt="Category" class="categorySideImage">
+                                <div class="categoryImageSideInfo text-right">
+                                    <h2 class="categoryImageSideHeadingname">الجوهرة مول</h2>
+                                    <h2 class="categoryImageSideHeadingCat">اسواق ومطاعم</h2>
+                                    <h3 class="categoryImageSideHeadingLocation">حى الصبح - جزيرة المحار</h3>
+                                </div>
+                                <div class="moreDetailsDiv">
+                                    <a href="#" class="btn moreDetailsAnchor">التفاصيل</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stat">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12 d-flex flex-column justify-content-center" data-aos-duration="600" data-aos-once="true"  data-aos="fade-left">
+                    <div class="logoImageContainer text-center text-md-right">
+                        <a href="#"><img src="./assets/imgs/logo-w3-2.png" alt="logo image" class="statLogoImage"></a>
+                        <h2 class="statLogoHeading">بوابة ينبع الالكترونية</h2>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 d-flex flex-column justify-content-center" data-aos-duration="600" data-aos-once="true"  data-aos="fade-right">
+                    <div class="statContainer d-flex flex-column align-items-center justify-content-center">
+                        <svg data-src="./assets/imgs/people2.svg" class="statImage"></svg>
+
+                        <h3 class="statHeading2">12000</h3>
+                        <h2 class="statHeading">زائر</h2>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 d-flex flex-column justify-content-center" data-aos-duration="600" data-aos-once="true"  data-aos="fade-right">
+                    <div class="statContainer d-flex flex-column align-items-center justify-content-center">
+                        <svg data-src="./assets/imgs/location2.svg" class="statImage"></svg>
+
+                        <h3 class="statHeading2">3000</h3>
+                        <h2 class="statHeading">معالم</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="advertiseSection2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 d-flex" data-aos-duration="600" data-aos-once="true"  data-aos="flip-down">
+                    <a href="#" class="w-100"><img class="advertiseImage2 img-fluid w-100" src="./assets/imgs/advertise2.png" alt="advertise"></a>
+                </div>
+                <div class="col-lg-6 col-12 d-flex" data-aos-duration="600" data-aos-once="true"  data-aos="flip-down">
+                    <a href="#" class="w-100"><img class="advertiseImage2 img-fluid w-100" src="./assets/imgs/advertise2.png" alt="advertise"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <section id="subscribe" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="subscribeTitle d-flex align-items-center text-right h-100" data-aos-duration="600" data-aos-once="true"  data-aos="fade-left">
+                        <svg data-src="./assets/imgs/mail.svg" class="subscribeMailImage"></svg>
+                        <div class="subscribeContent">
+                            <h3 class="subscribeContent1">ليصلك كل جديد</h3>
+                            <h4 class="subscribeContent2">اشترك فى القائمة البريدية</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <form action="index.html" class="d-flex align-items-center h-100 subscribeForm" data-aos-duration="600" data-aos-once="true"  data-aos="fade-right">
+                        <input type="text" class="form-control subscribeInput" placeholder="بريدك الالكترونى">
+                        <input type="submit" class="btn subscribeButton" value="ارسال">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-12 order-lg-1 order-2 d-flex">
+                    <div class="row">
+                        <div class="col-md-3 col-12" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">
+                            <ul class="footerList row text-right">
+                                <li class="footerListTitleLi col-12">
+                                    <p class="listTitle">
+                                        <svg data-src="./assets/imgs/Polygon1.svg" ></svg>
+                                        الموقع
+                                    </p>
+                                </li>
+                                <li class="footerListLi col-12">
+                                    <i class="icon-dot footerDotIcon"></i>
+                                    <a href="#" class="footerListAnchor">الرئيسية</a>
+                                </li>
+                                <li class="footerListLi col-12">
+                                    <i class="icon-dot footerDotIcon"></i>
+                                    <a href="#" class="footerListAnchor">من نحن</a>
+                                </li>
+                                <li class="footerListLi col-12">
+                                    <i class="icon-dot footerDotIcon"></i>
+                                    <a href="#" class="footerListAnchor">اعلن معن</a>
+                                </li>
+                                <li class="footerListLi col-12">
+                                    <i class="icon-dot footerDotIcon"></i>
+                                    <a href="#" class="footerListAnchor">اتصل بنا</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-9 col-12" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">
+                            <ul class="footerList text-right row">
+                                <li class="footerListTitleLi col-12">
+                                    <p class="listTitle">
+                                        <svg data-src="./assets/imgs/Polygon1.svg"></svg>
+                                        الاقسام
+                                    </p>
+                                </li>
+                                <!-- <dl class="footerColumns row"> -->
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">ترفيه وسياحة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">اسواق ومطاعم</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">عالم المرأة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">تجارة منزلية</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">ترفيه وسياحة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">اسواق ومطاعم</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">عالم المرأة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">تجارة منزلية</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">ترفيه وسياحة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">اسواق ومطاعم</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">عالم المرأة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">تجارة منزلية</a>
+                                    </li>
+                                <!-- </dl> -->
+                            </ul>
+                        </div>
+                    </div>        
+                </div>
+                <div class="col-lg-4 col-12 order-lg-2 order-1" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">
+                    <div class="footerLogoContainer d-flex flex-column align-items-center">
+                        <div class="footerLogoDiv">
+                            <a href="#"><img src="./assets/imgs/logo-w3-2.png" alt="yanb3 logo"></a>
+                        </div>
+                        <h4 class="footerHeader">بوابة ينبع الالكترونية</h4>
+                        <ul class="footerIconsUl d-flex justify-content-center w-100">
+                            <li class="footerIconsLi">
+                                <a href="#" class="footerIconAnchor">
+                                    <svg data-src="./assets/imgs/telegram.svg" class="footerIconImage"></svg>
+                                </a>
+                            </li>
+                            <li class="footerIconsLi">
+                                <a href="#" class="footerIconAnchor">
+                                    <svg data-src="./assets/imgs/instgram.svg" class="footerIconImage"></svg>
+                                </a>
+                            </li>
+                            <li class="footerIconsLi">
+                                <a href="#" class="footerIconAnchor">
+                                    <svg data-src="./assets/imgs/twitter.svg" class="footerIconImage"></svg>
+                                </a>
+                            </li>
+                            <li class="footerIconsLi">
+                                <a href="#" class="footerIconAnchor">
+                                    <svg data-src="./assets/imgs/facebook.svg" class="footerIconImage"></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyRightDiv">
+            <div class="container d-flex flex-column flex-sm-row align-items-center" >
+                <p class="ml-sm-auto my-sm-0 my-2" >تصميم وتطوير</p>
+                <p class="mr-sm-auto my-sm-0 my-2">جميع الحقوق محفوظة <span class="yearSpan"></span></p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="./assets/js/aos.js"></script>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+    AOS.init();
+
+        document.querySelector(".yearSpan").textContent=new Date().getFullYear();
+       
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en"  class="stopScrolling">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>بوابه ينبع</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="assets/css/fontello-embedded.css" rel="stylesheet">
+  <link href="assets/css/pagination.min.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="./assets/js/svg-loader.min.js" async></script>
+  
+  <link href="assets/css/style.css" rel="stylesheet">
+    
+
+</head>
+<body>
+    <div id="loadDivContainer">
+        <div class="loadDiv">
+            <img src="./assets/imgs/Pulse-1s-200px.gif" alt="load image">
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-sm p-0">
+        <div class="row m-0 w-100">
+            <div class="col-lg-6 col-12 logoDiv">
+                <div class="d-flex align-items-center justify-content-start justify-content-sm-center h-100">
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/imgs/logo-w3-1.png" alt="بوابة ينبع" class="logoImage">
+                    </a>
+                    <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="icon-menu"></i>
+                    </button>
+                </div>
+                
+            </div>
+                <div class="collapse navbar-collapse py-3 py-lg-0 col-lg-6 col-12 menuDiv" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-lg-5 m-auto">
+                        <li class="nav-item ml-xl-3 ml-lg-2 ml-3">
+                            <a class="nav-link navbarAnchors" href="#">الرئيسية</a>
+                        </li>
+                        <li class="nav-item ml-xl-3 ml-lg-2 ml-3">
+                            <a class="nav-link navbarAnchors" href="#">من نحن</a>
+                        </li>
+                        <li class="nav-item ml-xl-3 ml-lg-2 ml-3">
+                            <a class="nav-link navbarAnchors" href="#">اعلن معنا</a>
+                        </li>
+                        <li class="nav-item ml-xl-4 ml-lg-2 ml-4">
+                            <a class="nav-link navbarAnchors" href="#">اتصل بنا</a>
+                        </li>
+                        <li class="nav-item d-flex flex-column">
+                            <a class="nav-link navbarAnchorsSearch " href="#" onclick="showInputSearch()">
+                                <svg data-src="./assets/imgs/search.svg" class="navbarSearchIcon"></svg>
+                            </a>
+                            <form action="index.html" >
+                                <input type="text" class="form-control searchInput2 showInput" placeholder="كلمات البحث">
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+
+    <header id="fullHeader" class="d-flex align-items-center justify-content-center">
+        <h1 class="fullHeaderHeading">دليل ينبع الالكترونى</h1>
+    </header>
+    <section id="guideSection">
+        <div class="container guideContainer">
+            <div class="searchDiv" data-aos-duration="600" data-aos-once="true"  data-aos="fade-up" >
+                <ul class="searchFilter d-flex justify-content-center">
+                    <li class="searchFilterLi">
+                        <a href="#" class="searchFilterAnchor active">الكل</a>
+                    </li>
+                    <li class="searchFilterLi">
+                        <a href="#" class="searchFilterAnchor">ينبع الصناعية</a>
+                    </li>
+                    <li class="searchFilterLi">
+                        <a href="#" class="searchFilterAnchor">ينبع البحر</a>
+                    </li>
+                </ul>
+                <form action="index.html" class="searchForm d-flex">
+                    <input type="text" class="form-control searchInput" placeholder="كلمات البحث">
+                    <a class="btn searchFormButton" >
+                        <svg data-src="./assets/imgs/search2.svg"></svg>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="aboutUsContent1">
+        <div class="container text-right">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="accordionContainer">
+                        <div class="accordion" id="guideElectronAccordion">
+                            <div class="card">
+                              <div class="card-header accordionHeader accordionBackgroundColor">
+                                  <h2 class="d-flex mb-0 w-100 w-100">
+                                    <button class="btn text-right accordionButton" onclick="changeAccordionColor(0)" type="button" 
+                                    data-toggle="collapse" data-target="#collapse0" aria-expanded="true" aria-controls="collapse0">
+                                        <svg data-src="./assets/imgs/beach.svg" class="guideElectronCategoryImage"></svg>
+                                        ترفيه وسياحة
+                                        <svg data-src="./assets/imgs/downarrow.svg" class="guideElectronCategoryArrow"></svg>
+                                    </button>
+                                </h2>
+                              </div>
+                              <div id="collapse0" class="collapse show" data-parent="#guideElectronAccordion">
+                                    <ul class="acordionUl">
+                                        <li>
+                                            <a href="#" class="acordionLinks active">اسواق ومولات </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  class="acordionLinks ">اسواق ومولات </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  class="acordionLinks ">اسواق ومولات </a>
+                                        </li>
+                                    </ul>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header accordionHeader">
+                                  <h2 class="d-flex mb-0 w-100">
+                                    <button class="btn text-right accordionButton" onclick="changeAccordionColor(1)" type="button" 
+                                    data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                        <svg data-src="./assets/imgs/beach.svg" class="guideElectronCategoryImage"></svg>
+                                        ترفيه وسياحة
+                                        <svg data-src="./assets/imgs/downarrow.svg" class="guideElectronCategoryArrow"></svg>
+                                    </button>
+                                </h2>
+                              </div>
+                              <div id="collapse1" class="collapse" data-parent="#guideElectronAccordion">
+                                    <ul class="acordionUl">
+                                        <li>
+                                            <a href="#" class="acordionLinks active">اسواق ومولات </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  class="acordionLinks ">اسواق ومولات </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  class="acordionLinks ">اسواق ومولات </a>
+                                        </li>
+                                    </ul>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header accordionHeader">
+                                  <h2 class="d-flex mb-0 w-100">
+                                    <button class="btn text-right accordionButton" onclick="changeAccordionColor(2)" type="button" 
+                                    data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                        <svg data-src="./assets/imgs/beach.svg" class="guideElectronCategoryImage"></svg>
+                                        ترفيه وسياحة
+                                        <svg data-src="./assets/imgs/downarrow.svg" class="guideElectronCategoryArrow"></svg>
+                                    </button>
+                                </h2>
+
+                              </div>
+                          
+                              <div id="collapse2" class="collapse" data-parent="#guideElectronAccordion">
+                                    <ul class="acordionUl">
+                                        <li>
+                                            <a href="#" class="acordionLinks active">اسواق ومولات </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  class="acordionLinks ">اسواق ومولات </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  class="acordionLinks ">اسواق ومولات </a>
+                                        </li>
+                                    </ul>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header accordionHeader ">
+                                  <h2 class="d-flex mb-0 w-100">
+                                    <button class="btn text-right accordionButton" onclick="changeAccordionColor(3)" type="button" 
+                                    data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                        <svg data-src="./assets/imgs/beach.svg" class="guideElectronCategoryImage"></svg>
+                                        ترفيه وسياحة
+                                        <svg data-src="./assets/imgs/downarrow.svg" class="guideElectronCategoryArrow"></svg>
+                                    </button>
+                                </h2>
+
+                              </div>
+                          
+                              <div id="collapse3" class="collapse " data-parent="#guideElectronAccordion">
+                                    <ul class="acordionUl">
+                                        <li>
+                                            <a href="#" class="acordionLinks active">اسواق ومولات </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  class="acordionLinks ">اسواق ومولات </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  class="acordionLinks ">اسواق ومولات </a>
+                                        </li>
+                                    </ul>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header accordionHeader">
+                                  <h2 class="d-flex mb-0 w-100">
+                                    <button class="btn text-right accordionButton" onclick="changeAccordionColor(4)" type="button" 
+                                    data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                        <svg data-src="./assets/imgs/beach.svg" class="guideElectronCategoryImage"></svg>
+                                        ترفيه وسياحة
+                                        <svg data-src="./assets/imgs/downarrow.svg" class="guideElectronCategoryArrow"></svg>
+                                    </button>
+                                </h2>
+
+                              </div>
+                          
+                              <div id="collapse4" class="collapse " data-parent="#guideElectronAccordion">
+                                    <ul class="acordionUl">
+                                        <li>
+                                            <a href="#" class="acordionLinks active">اسواق ومولات </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  class="acordionLinks ">اسواق ومولات </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  class="acordionLinks ">اسواق ومولات </a>
+                                        </li>
+                                    </ul>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header accordionHeader ">
+                                  <h2 class="d-flex mb-0 w-100">
+                                    <button class="btn text-right accordionButton" onclick="changeAccordionColor(5)" type="button" 
+                                    data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                        <svg data-src="./assets/imgs/beach.svg" class="guideElectronCategoryImage"></svg>
+                                        ترفيه وسياحة
+                                        <svg data-src="./assets/imgs/downarrow.svg" class="guideElectronCategoryArrow"></svg>
+                                    </button>
+                                </h2>
+
+                              </div>
+                          
+                              <div id="collapse5" class="collapse" data-parent="#guideElectronAccordion">
+                                    <ul class="acordionUl">
+                                        <li>
+                                            <a href="#" class="acordionLinks active">اسواق ومولات </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  class="acordionLinks ">اسواق ومولات </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  class="acordionLinks ">اسواق ومولات </a>
+                                        </li>
+                                    </ul>
+                              </div>
+                            </div>
+                           
+                          </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <h2 class="guideHeading">أسواق ومطاعم</h2>
+                    <h3 class="guideSubHeading">أسواق ومولات</h3>
+                    <div class="row">
+                        <div class=" col-xl-4 col-lg-6 col-sm-6 col-12 mb-3">
+                            <div class="categoryImageSide ">
+                                <img src="./assets/imgs/Mask-Group3.jpg" alt="Category" class="categorySideImage">
+                                <div class="categoryImageSideInfo text-right">
+                                    <h2 class="categoryImageSideHeadingname">منتجع مونفيك</h2>
+                                    <h2 class="categoryImageSideHeadingCat">ترفيه وسياحة</h2>
+                                    <h3 class="categoryImageSideHeadingLocation">حى الصبح - جزيرة المحار</h3>
+                                </div>
+                                <div class="moreDetailsDiv">
+                                    <a href="#" class="btn moreDetailsAnchor">التفاصيل</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-xl-4 col-lg-6 col-sm-6 col-12 mb-3">
+                            <div class="categoryImageSide ">
+                                <img src="./assets/imgs/Mask-Group3.jpg" alt="Category" class="categorySideImage">
+                                <div class="categoryImageSideInfo text-right">
+                                    <h2 class="categoryImageSideHeadingname">منتجع مونفيك</h2>
+                                    <h2 class="categoryImageSideHeadingCat">ترفيه وسياحة</h2>
+                                    <h3 class="categoryImageSideHeadingLocation">حى الصبح - جزيرة المحار</h3>
+                                </div>
+                                <div class="moreDetailsDiv">
+                                    <a href="#" class="btn moreDetailsAnchor">التفاصيل</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-xl-4 col-lg-6 col-sm-6 col-12 mb-3">
+                            <div class="categoryImageSide ">
+                                <img src="./assets/imgs/Mask-Group3.jpg" alt="Category" class="categorySideImage">
+                                <div class="categoryImageSideInfo text-right">
+                                    <h2 class="categoryImageSideHeadingname">منتجع مونفيك</h2>
+                                    <h2 class="categoryImageSideHeadingCat">ترفيه وسياحة</h2>
+                                    <h3 class="categoryImageSideHeadingLocation">حى الصبح - جزيرة المحار</h3>
+                                </div>
+                                <div class="moreDetailsDiv">
+                                    <a href="#" class="btn moreDetailsAnchor">التفاصيل</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-xl-4 col-lg-6 col-sm-6 col-12 mb-3">
+                            <div class="categoryImageSide ">
+                                <img src="./assets/imgs/Mask-Group3.jpg" alt="Category" class="categorySideImage">
+                                <div class="categoryImageSideInfo text-right">
+                                    <h2 class="categoryImageSideHeadingname">منتجع مونفيك</h2>
+                                    <h2 class="categoryImageSideHeadingCat">ترفيه وسياحة</h2>
+                                    <h3 class="categoryImageSideHeadingLocation">حى الصبح - جزيرة المحار</h3>
+                                </div>
+                                <div class="moreDetailsDiv">
+                                    <a href="#" class="btn moreDetailsAnchor">التفاصيل</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-xl-4 col-lg-6 col-sm-6 col-12 mb-3">
+                            <div class="categoryImageSide ">
+                                <img src="./assets/imgs/Mask-Group3.jpg" alt="Category" class="categorySideImage">
+                                <div class="categoryImageSideInfo text-right">
+                                    <h2 class="categoryImageSideHeadingname">منتجع مونفيك</h2>
+                                    <h2 class="categoryImageSideHeadingCat">ترفيه وسياحة</h2>
+                                    <h3 class="categoryImageSideHeadingLocation">حى الصبح - جزيرة المحار</h3>
+                                </div>
+                                <div class="moreDetailsDiv">
+                                    <a href="#" class="btn moreDetailsAnchor">التفاصيل</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-xl-4 col-lg-6 col-sm-6 col-12 mb-3">
+                            <div class="categoryImageSide ">
+                                <img src="./assets/imgs/Mask-Group3.jpg" alt="Category" class="categorySideImage">
+                                <div class="categoryImageSideInfo text-right">
+                                    <h2 class="categoryImageSideHeadingname">منتجع مونفيك</h2>
+                                    <h2 class="categoryImageSideHeadingCat">ترفيه وسياحة</h2>
+                                    <h3 class="categoryImageSideHeadingLocation">حى الصبح - جزيرة المحار</h3>
+                                </div>
+                                <div class="moreDetailsDiv">
+                                    <a href="#" class="btn moreDetailsAnchor">التفاصيل</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-xl-4 col-lg-6 col-sm-6 col-12 mb-3">
+                            <div class="categoryImageSide ">
+                                <img src="./assets/imgs/Mask-Group3.jpg" alt="Category" class="categorySideImage">
+                                <div class="categoryImageSideInfo text-right">
+                                    <h2 class="categoryImageSideHeadingname">منتجع مونفيك</h2>
+                                    <h2 class="categoryImageSideHeadingCat">ترفيه وسياحة</h2>
+                                    <h3 class="categoryImageSideHeadingLocation">حى الصبح - جزيرة المحار</h3>
+                                </div>
+                                <div class="moreDetailsDiv">
+                                    <a href="#" class="btn moreDetailsAnchor">التفاصيل</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-xl-4 col-lg-6 col-sm-6 col-12 mb-3">
+                            <div class="categoryImageSide ">
+                                <img src="./assets/imgs/Mask-Group3.jpg" alt="Category" class="categorySideImage">
+                                <div class="categoryImageSideInfo text-right">
+                                    <h2 class="categoryImageSideHeadingname">منتجع مونفيك</h2>
+                                    <h2 class="categoryImageSideHeadingCat">ترفيه وسياحة</h2>
+                                    <h3 class="categoryImageSideHeadingLocation">حى الصبح - جزيرة المحار</h3>
+                                </div>
+                                <div class="moreDetailsDiv">
+                                    <a href="#" class="btn moreDetailsAnchor">التفاصيل</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-xl-4 col-lg-6 col-sm-6 col-12 mb-3">
+                            <div class="categoryImageSide ">
+                                <img src="./assets/imgs/Mask-Group3.jpg" alt="Category" class="categorySideImage">
+                                <div class="categoryImageSideInfo text-right">
+                                    <h2 class="categoryImageSideHeadingname">منتجع مونفيك</h2>
+                                    <h2 class="categoryImageSideHeadingCat">ترفيه وسياحة</h2>
+                                    <h3 class="categoryImageSideHeadingLocation">حى الصبح - جزيرة المحار</h3>
+                                </div>
+                                <div class="moreDetailsDiv">
+                                    <a href="#" class="btn moreDetailsAnchor">التفاصيل</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-xl-4 col-lg-6 col-sm-6 col-12 mb-3">
+                            <div class="categoryImageSide ">
+                                <img src="./assets/imgs/Mask-Group3.jpg" alt="Category" class="categorySideImage">
+                                <div class="categoryImageSideInfo text-right">
+                                    <h2 class="categoryImageSideHeadingname">منتجع مونفيك</h2>
+                                    <h2 class="categoryImageSideHeadingCat">ترفيه وسياحة</h2>
+                                    <h3 class="categoryImageSideHeadingLocation">حى الصبح - جزيرة المحار</h3>
+                                </div>
+                                <div class="moreDetailsDiv">
+                                    <a href="#" class="btn moreDetailsAnchor">التفاصيل</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-xl-4 col-lg-6 col-sm-6 col-12 mb-3">
+                            <div class="categoryImageSide ">
+                                <img src="./assets/imgs/Mask-Group3.jpg" alt="Category" class="categorySideImage">
+                                <div class="categoryImageSideInfo text-right">
+                                    <h2 class="categoryImageSideHeadingname">منتجع مونفيك</h2>
+                                    <h2 class="categoryImageSideHeadingCat">ترفيه وسياحة</h2>
+                                    <h3 class="categoryImageSideHeadingLocation">حى الصبح - جزيرة المحار</h3>
+                                </div>
+                                <div class="moreDetailsDiv">
+                                    <a href="#" class="btn moreDetailsAnchor">التفاصيل</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-xl-4 col-lg-6 col-sm-6 col-12 mb-3">
+                            <div class="categoryImageSide ">
+                                <img src="./assets/imgs/Mask-Group3.jpg" alt="Category" class="categorySideImage">
+                                <div class="categoryImageSideInfo text-right">
+                                    <h2 class="categoryImageSideHeadingname">منتجع مونفيك</h2>
+                                    <h2 class="categoryImageSideHeadingCat">ترفيه وسياحة</h2>
+                                    <h3 class="categoryImageSideHeadingLocation">حى الصبح - جزيرة المحار</h3>
+                                </div>
+                                <div class="moreDetailsDiv">
+                                    <a href="#" class="btn moreDetailsAnchor">التفاصيل</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <ul id="guidePagination" class="pagination"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="subscribe" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="subscribeTitle d-flex align-items-center text-right h-100">
+                        <svg data-src="./assets/imgs/mail.svg" alt="mail" class="subscribeMailImage"></svg>
+                        <div class="subscribeContent">
+                            <h3 class="subscribeContent1">ليصلك كل جديد</h3>
+                            <h4 class="subscribeContent2">اشترك فى القائمة البريدية</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <form class="d-flex align-items-center h-100 subscribeForm ">
+                        <input type="text" class="form-control subscribeInput" placeholder="بريدك الالكترونى">
+                        <input type="submit" class="btn subscribeButton" value="ارسال">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-12 order-lg-1 order-2 d-flex">
+                    <div class="row">
+                        <div class="col-md-3 col-12" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">
+                            <ul class="footerList row text-right">
+                                <li class="footerListTitleLi col-12">
+                                    <p class="listTitle">
+                                        <svg data-src="./assets/imgs/Polygon1.svg" ></svg>
+                                        الموقع
+                                    </p>
+                                </li>
+                                <li class="footerListLi col-12">
+                                    <i class="icon-dot footerDotIcon"></i>
+                                    <a href="#" class="footerListAnchor">الرئيسية</a>
+                                </li>
+                                <li class="footerListLi col-12">
+                                    <i class="icon-dot footerDotIcon"></i>
+                                    <a href="#" class="footerListAnchor">من نحن</a>
+                                </li>
+                                <li class="footerListLi col-12">
+                                    <i class="icon-dot footerDotIcon"></i>
+                                    <a href="#" class="footerListAnchor">اعلن معن</a>
+                                </li>
+                                <li class="footerListLi col-12">
+                                    <i class="icon-dot footerDotIcon"></i>
+                                    <a href="#" class="footerListAnchor">اتصل بنا</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-9 col-12" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">
+                            <ul class="footerList text-right row">
+                                <li class="footerListTitleLi col-12">
+                                    <p class="listTitle">
+                                        <svg data-src="./assets/imgs/Polygon1.svg"></svg>
+                                        الاقسام
+                                    </p>
+                                </li>
+                                <!-- <dl class="footerColumns row"> -->
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">ترفيه وسياحة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">اسواق ومطاعم</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">عالم المرأة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">تجارة منزلية</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">ترفيه وسياحة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">اسواق ومطاعم</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">عالم المرأة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">تجارة منزلية</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">ترفيه وسياحة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">اسواق ومطاعم</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">عالم المرأة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">تجارة منزلية</a>
+                                    </li>
+                                <!-- </dl> -->
+                            </ul>
+                        </div>
+                    </div>        
+                </div>
+                <div class="col-lg-4 col-12 order-lg-2 order-1" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">
+                    <div class="footerLogoContainer d-flex flex-column align-items-center">
+                        <div class="footerLogoDiv">
+                            <a href="#"><img src="./assets/imgs/logo-w3-2.png" alt="yanb3 logo"></a>
+                        </div>
+                        <h4 class="footerHeader">بوابة ينبع الالكترونية</h4>
+                        <ul class="footerIconsUl d-flex justify-content-center w-100">
+                            <li class="footerIconsLi">
+                                <a href="#" class="footerIconAnchor">
+                                    <svg data-src="./assets/imgs/telegram.svg" class="footerIconImage"></svg>
+                                </a>
+                            </li>
+                            <li class="footerIconsLi">
+                                <a href="#" class="footerIconAnchor">
+                                    <svg data-src="./assets/imgs/instgram.svg" class="footerIconImage"></svg>
+                                </a>
+                            </li>
+                            <li class="footerIconsLi">
+                                <a href="#" class="footerIconAnchor">
+                                    <svg data-src="./assets/imgs/twitter.svg" class="footerIconImage"></svg>
+                                </a>
+                            </li>
+                            <li class="footerIconsLi">
+                                <a href="#" class="footerIconAnchor">
+                                    <svg data-src="./assets/imgs/facebook.svg" class="footerIconImage"></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyRightDiv">
+            <div class="container d-flex flex-column flex-sm-row align-items-center" >
+                <p class="ml-sm-auto my-sm-0 my-2" >تصميم وتطوير</p>
+                <p class="mr-sm-auto my-sm-0 my-2">جميع الحقوق محفوظة <span class="yearSpan"></span></p>
+            </div>
+        </div>
+    </footer>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+
+
+    <script src="assets/js/pagination.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        document.querySelector(".yearSpan").textContent=new Date().getFullYear();
+        $('#guidePagination').pagination({
+            total: 100,
+            current: 2, 
+            length: 10, 
+            size: 2, 
+            click: function(options,$target) { 
+                $target.next(".show").text('Current: '+options.current);
+            }
+        });
+        // let changeAccordionColor = setTimeout(changeAccordionColor,0);
+        
+        function changeAccordionColor(index) {
+            document.querySelectorAll('.accordionButton').forEach((val,index2)=>{
+                document.querySelectorAll('.accordionHeader').forEach(val=>{
+                    val.classList.remove('accordionBackgroundColor')
+                })
+            })
+            // let tar = event.target;
+            if( event.target.getAttribute('aria-expanded')=='false'){
+                document.querySelectorAll('.accordionHeader')[index].classList.add('accordionBackgroundColor');
+            }
+        }
+        $('#guideElectronAccordion').on('hidden.bs.collapse', function () {
+            console.log('hidden')
+        })
+        
+        $('#guideElectronAccordion').on('shown.bs.collapse', function () {
+            console.log('shown');
+            console.log($(this));
+            setTimeout(()=>{
+                console.log('sasas');
+            },0)
+        })
+    </script>
+
+</body>
+
+</html>

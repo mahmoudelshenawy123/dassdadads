@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en"  class="stopScrolling">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>بوابه ينبع</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="assets/css/fontello-embedded.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="./assets/js/svg-loader.min.js" async></script>
+
+  <link href="assets/css/style.css" rel="stylesheet">
+    
+
+</head>
+<body>
+    <div id="loadDivContainer">
+        <div class="loadDiv">
+            <img src="./assets/imgs/Pulse-1s-200px.gif" alt="load image">
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-sm p-0">
+        <div class="row m-0 w-100">
+            <div class="col-lg-6 col-12 logoDiv">
+                <div class="d-flex align-items-center justify-content-start justify-content-sm-center h-100">
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/imgs/logo-w3-1.png" alt="بوابة ينبع" class="logoImage">
+                    </a>
+                    <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="icon-menu"></i>
+                    </button>
+                </div>
+                
+            </div>
+                <div class="collapse navbar-collapse py-3 py-lg-0 col-lg-6 col-12 menuDiv" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-lg-5 m-auto">
+                        <li class="nav-item ml-xl-3 ml-lg-2 ml-3">
+                            <a class="nav-link navbarAnchors" href="#">الرئيسية</a>
+                        </li>
+                        <li class="nav-item ml-xl-3 ml-lg-2 ml-3">
+                            <a class="nav-link navbarAnchors" href="#">من نحن</a>
+                        </li>
+                        <li class="nav-item ml-xl-3 ml-lg-2 ml-3">
+                            <a class="nav-link navbarAnchors" href="#">اعلن معنا</a>
+                        </li>
+                        <li class="nav-item ml-xl-4 ml-lg-2 ml-4">
+                            <a class="nav-link navbarAnchors" href="#">اتصل بنا</a>
+                        </li>
+                        <li class="nav-item d-flex flex-column">
+                            <a class="nav-link navbarAnchorsSearch " href="#" onclick="showInputSearch()">
+                                <svg data-src="./assets/imgs/search.svg" class="navbarSearchIcon"></svg>
+                            </a>
+                            <form action="index.html" >
+                                <input type="text" class="form-control searchInput2 showInput" placeholder="كلمات البحث">
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+
+    <header id="fullHeader" class="d-flex align-items-center justify-content-center">
+        <h1 class="fullHeaderHeading">اتصل بنا</h1>
+    </header>
+
+    <section class="contactUsContent">
+        <div class="contactUsForm d-flex justify-content-between row">
+            <form class="contact__content h-100 text-right col-lg-8">
+                <h2>تواصل معنا</h2>
+                <div class="form-group">
+                    <label for="nameInput" class="name-label contact_labels">الأسم</label>
+                    <input type="text" class="form-control contact__inputs" id="nameInput" placeholder="الأسم">
+                </div>
+                <div class="form-group">
+                    <label for="nameInput" class="name-label contact_labels">البريد الالكترونى</label>
+                    <input type="text" class="form-control contact__inputs" id="nameInput" placeholder="البريد الالكترونى">
+                </div>
+                <div class="form-group">
+                    <label for="nameInput" class="name-label contact_labels">الجوال</label>
+                    <input type="text" class="form-control contact__inputs" id="nameInput" placeholder="الجوال">
+                </div>
+                <div class="form-group">
+                    <label for="nameInput" class="name-label contact_labels">الرسالة</label>
+                    <input type="text" class="form-control contact__inputs" id="nameInput" placeholder="الرسالة">
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="form-control contact_submit" value="ارسال">
+                </div>
+            </form>
+            <div class="contact__image col-lg-4 h-100">
+                <!-- <img src="./assets/imgs/contactus.jpg" class="h-100" alt="contact image"> -->
+            </div>
+        </div>
+    </section>
+
+    
+
+
+    <section id="subscribe" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="subscribeTitle d-flex align-items-center text-right h-100">
+                        <svg data-src="./assets/imgs/mail.svg" alt="mail" class="subscribeMailImage"></svg>
+                        <div class="subscribeContent">
+                            <h3 class="subscribeContent1">ليصلك كل جديد</h3>
+                            <h4 class="subscribeContent2">اشترك فى القائمة البريدية</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <form class="d-flex align-items-center h-100 subscribeForm ">
+                        <input type="text" class="form-control subscribeInput" placeholder="بريدك الالكترونى">
+                        <input type="submit" class="btn subscribeButton" value="ارسال">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-12 order-lg-1 order-2 d-flex">
+                    <div class="row">
+                        <div class="col-md-3 col-12" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">
+                            <ul class="footerList row text-right">
+                                <li class="footerListTitleLi col-12">
+                                    <p class="listTitle">
+                                        <svg data-src="./assets/imgs/Polygon1.svg" ></svg>
+                                        الموقع
+                                    </p>
+                                </li>
+                                <li class="footerListLi col-12">
+                                    <i class="icon-dot footerDotIcon"></i>
+                                    <a href="#" class="footerListAnchor">الرئيسية</a>
+                                </li>
+                                <li class="footerListLi col-12">
+                                    <i class="icon-dot footerDotIcon"></i>
+                                    <a href="#" class="footerListAnchor">من نحن</a>
+                                </li>
+                                <li class="footerListLi col-12">
+                                    <i class="icon-dot footerDotIcon"></i>
+                                    <a href="#" class="footerListAnchor">اعلن معن</a>
+                                </li>
+                                <li class="footerListLi col-12">
+                                    <i class="icon-dot footerDotIcon"></i>
+                                    <a href="#" class="footerListAnchor">اتصل بنا</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-9 col-12" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">
+                            <ul class="footerList text-right row">
+                                <li class="footerListTitleLi col-12">
+                                    <p class="listTitle">
+                                        <svg data-src="./assets/imgs/Polygon1.svg"></svg>
+                                        الاقسام
+                                    </p>
+                                </li>
+                                <!-- <dl class="footerColumns row"> -->
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">ترفيه وسياحة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">اسواق ومطاعم</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">عالم المرأة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">تجارة منزلية</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">ترفيه وسياحة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">اسواق ومطاعم</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">عالم المرأة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">تجارة منزلية</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">ترفيه وسياحة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">اسواق ومطاعم</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">عالم المرأة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">تجارة منزلية</a>
+                                    </li>
+                                <!-- </dl> -->
+                            </ul>
+                        </div>
+                    </div>        
+                </div>
+                <div class="col-lg-4 col-12 order-lg-2 order-1" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">
+                    <div class="footerLogoContainer d-flex flex-column align-items-center">
+                        <div class="footerLogoDiv">
+                            <a href="#"><img src="./assets/imgs/logo-w3-2.png" alt="yanb3 logo"></a>
+                        </div>
+                        <h4 class="footerHeader">بوابة ينبع الالكترونية</h4>
+                        <ul class="footerIconsUl d-flex justify-content-center w-100">
+                            <li class="footerIconsLi">
+                                <a href="#" class="footerIconAnchor">
+                                    <svg data-src="./assets/imgs/telegram.svg" class="footerIconImage"></svg>
+                                </a>
+                            </li>
+                            <li class="footerIconsLi">
+                                <a href="#" class="footerIconAnchor">
+                                    <svg data-src="./assets/imgs/instgram.svg" class="footerIconImage"></svg>
+                                </a>
+                            </li>
+                            <li class="footerIconsLi">
+                                <a href="#" class="footerIconAnchor">
+                                    <svg data-src="./assets/imgs/twitter.svg" class="footerIconImage"></svg>
+                                </a>
+                            </li>
+                            <li class="footerIconsLi">
+                                <a href="#" class="footerIconAnchor">
+                                    <svg data-src="./assets/imgs/facebook.svg" class="footerIconImage"></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyRightDiv">
+            <div class="container d-flex flex-column flex-sm-row align-items-center" >
+                <p class="ml-sm-auto my-sm-0 my-2" >تصميم وتطوير</p>
+                <p class="mr-sm-auto my-sm-0 my-2">جميع الحقوق محفوظة <span class="yearSpan"></span></p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        document.querySelector(".yearSpan").textContent=new Date().getFullYear();
+        
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en"  class="stopScrolling">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>بوابه ينبع</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="assets/css/fontello-embedded.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="./assets/js/svg-loader.min.js" async></script>
+  
+  <!-- <link rel="stylesheet" href="./assets/owlcarousel/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/owlcarousel/owl.theme.default.min.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+    
+
+</head>
+<body>
+    <div id="loadDivContainer">
+        <div class="loadDiv">
+            <img src="./assets/imgs/Pulse-1s-200px.gif" alt="load image">
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-sm p-0">
+        <div class="row m-0 w-100">
+            <div class="col-lg-6 col-12 logoDiv">
+                <div class="d-flex align-items-center justify-content-start justify-content-sm-center h-100">
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/imgs/logo-w3-1.png" alt="بوابة ينبع" class="logoImage">
+                    </a>
+                    <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="icon-menu"></i>
+                    </button>
+                </div>
+                
+            </div>
+                <div class="collapse navbar-collapse py-3 py-lg-0 col-lg-6 col-12 menuDiv" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-lg-5 m-auto">
+                        <li class="nav-item ml-xl-3 ml-lg-2 ml-3">
+                            <a class="nav-link navbarAnchors" href="#">الرئيسية</a>
+                        </li>
+                        <li class="nav-item ml-xl-3 ml-lg-2 ml-3">
+                            <a class="nav-link navbarAnchors" href="#">من نحن</a>
+                        </li>
+                        <li class="nav-item ml-xl-3 ml-lg-2 ml-3">
+                            <a class="nav-link navbarAnchors" href="#">اعلن معنا</a>
+                        </li>
+                        <li class="nav-item ml-xl-4 ml-lg-2 ml-4">
+                            <a class="nav-link navbarAnchors" href="#">اتصل بنا</a>
+                        </li>
+                        <li class="nav-item d-flex flex-column">
+                            <a class="nav-link navbarAnchorsSearch " href="#" onclick="showInputSearch()">
+                                <svg data-src="./assets/imgs/search.svg" class="navbarSearchIcon"></svg>
+                            </a>
+                            <form action="index.html" >
+                                <input type="text" class="form-control searchInput2 showInput" placeholder="كلمات البحث">
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+
+    <header id="fullHeader" class="d-flex align-items-center justify-content-center">
+        <h1 class="fullHeaderHeading">دليل ينبع الالكترونى</h1>
+    </header>
+    <section id="guideSection">
+        <div class="container guideContainer">
+            <div class="searchDiv" data-aos-duration="600" data-aos-once="true"  data-aos="fade-up" >
+                <ul class="searchFilter d-flex justify-content-center">
+                    <li class="searchFilterLi">
+                        <a href="#" class="searchFilterAnchor active">الكل</a>
+                    </li>
+                    <li class="searchFilterLi">
+                        <a href="#" class="searchFilterAnchor">ينبع الصناعية</a>
+                    </li>
+                    <li class="searchFilterLi">
+                        <a href="#" class="searchFilterAnchor">ينبع البحر</a>
+                    </li>
+                </ul>
+                <form action="index.html" class="searchForm d-flex">
+                    <input type="text" class="form-control searchInput" placeholder="كلمات البحث">
+                    <a class="btn searchFormButton" >
+                        <svg data-src="./assets/imgs/search2.svg"></svg>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="aboutUsContent1">
+        <div class="container text-right">
+            <h1 class="guideHeading">منتجع مونفيك</h1>
+            <nav class="guideNav" aria-label="breadcrumb">
+                <ol class="breadcrumb guideNav__breadcrumb">
+                    <li class="breadcrumb-item guideNav__breadcrumb-item"><a href="#">أسواق ومطاعم</a></li>
+                    <li class="breadcrumb-item guideNav__breadcrumb-item"><a href="#">اسواق ومولات</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">منتجع مونفيك</li>
+                </ol>
+            </nav>
+            <p class="aboutUsPara">
+                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغويم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً.
+            </p>
+            <p class="aboutUsPara">
+                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمص. لأنه مازال نصاً بديلاً ومؤقتاً.
+            </p>
+            <div class="ourClientsContent mt-5 py-5 ">
+                <div class="container">
+                    <div class="row">
+                        <div class="owl-carousel owl-theme">
+                            <div class="col-4 item"><img src="./assets/imgs/owlImage.jpg" class="mx-auto d-block" alt="img1"></div>
+                            <div class="col-4 item"><img src="./assets/imgs/owlImage.jpg" class="mx-auto d-block" alt="img1"></div>
+                            <div class="col-4 item"><img src="./assets/imgs/owlImage.jpg" class="mx-auto d-block" alt="img1"></div>
+                            <div class="col-4 item"><img src="./assets/imgs/owlImage.jpg" class="mx-auto d-block" alt="img1"></div>
+                            <div class="col-4 item"><img src="./assets/imgs/owlImage.jpg" class="mx-auto d-block" alt="img1"></div>
+                            <div class="col-4 item"><img src="./assets/imgs/owlImage.jpg" class="mx-auto d-block" alt="img1"></div>
+                            <div class="col-4 item"><img src="./assets/imgs/owlImage.jpg" class="mx-auto d-block" alt="img1"></div>
+                            <div class="col-4 item"><img src="./assets/imgs/owlImage.jpg" class="mx-auto d-block" alt="img1"></div>
+                            <div class="col-4 item"><img src="./assets/imgs/owlImage.jpg" class="mx-auto d-block" alt="img1"></div>
+                            <div class="col-4 item"><img src="./assets/imgs/owlImage.jpg" class="mx-auto d-block" alt="img1"></div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row guideInfoRow">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="placeInfo d-flex align-items-center">
+                        <svg data-src="./assets/imgs/place.svg" class="infoIcons"></svg>
+                        <h3>حى الصباح -جزيرة الحار</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="placeInfo d-flex align-items-center">
+                        <svg data-src="./assets/imgs/phone.svg" class="infoIcons"></svg>
+                        <h3>014325333</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="placeInfo d-flex align-items-center">
+                        <svg data-src="./assets/imgs/comp.svg" class="infoIcons"></svg>
+                        <h3>www.website.com</h3>
+                    </div>
+                </div>
+            </div>
+            <iframe class="googleMaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5899.017611759054!2d13.519088126934657!3d42.33167436675504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132fd59fcb91076f%3A0x77981ea2aba50301!2s67021%20Petogna%2C%20Province%20of%20L&#39;Aquila%2C%20Italy!5e0!3m2!1sen!2seg!4v1642111778223!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+    </section>
+
+    <section id="subscribe" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="subscribeTitle d-flex align-items-center text-right h-100">
+                        <svg data-src="./assets/imgs/mail.svg" alt="mail" class="subscribeMailImage"></svg>
+                        <div class="subscribeContent">
+                            <h3 class="subscribeContent1">ليصلك كل جديد</h3>
+                            <h4 class="subscribeContent2">اشترك فى القائمة البريدية</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <form class="d-flex align-items-center h-100 subscribeForm ">
+                        <input type="text" class="form-control subscribeInput" placeholder="بريدك الالكترونى">
+                        <input type="submit" class="btn subscribeButton" value="ارسال">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-12 order-lg-1 order-2 d-flex">
+                    <div class="row">
+                        <div class="col-md-3 col-12" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">
+                            <ul class="footerList row text-right">
+                                <li class="footerListTitleLi col-12">
+                                    <p class="listTitle">
+                                        <svg data-src="./assets/imgs/Polygon1.svg" ></svg>
+                                        الموقع
+                                    </p>
+                                </li>
+                                <li class="footerListLi col-12">
+                                    <i class="icon-dot footerDotIcon"></i>
+                                    <a href="#" class="footerListAnchor">الرئيسية</a>
+                                </li>
+                                <li class="footerListLi col-12">
+                                    <i class="icon-dot footerDotIcon"></i>
+                                    <a href="#" class="footerListAnchor">من نحن</a>
+                                </li>
+                                <li class="footerListLi col-12">
+                                    <i class="icon-dot footerDotIcon"></i>
+                                    <a href="#" class="footerListAnchor">اعلن معن</a>
+                                </li>
+                                <li class="footerListLi col-12">
+                                    <i class="icon-dot footerDotIcon"></i>
+                                    <a href="#" class="footerListAnchor">اتصل بنا</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-9 col-12" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">
+                            <ul class="footerList text-right row">
+                                <li class="footerListTitleLi col-12">
+                                    <p class="listTitle">
+                                        <svg data-src="./assets/imgs/Polygon1.svg"></svg>
+                                        الاقسام
+                                    </p>
+                                </li>
+                                <!-- <dl class="footerColumns row"> -->
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">ترفيه وسياحة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">اسواق ومطاعم</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">عالم المرأة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">تجارة منزلية</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">ترفيه وسياحة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">اسواق ومطاعم</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">عالم المرأة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">تجارة منزلية</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">ترفيه وسياحة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">اسواق ومطاعم</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">عالم المرأة</a>
+                                    </li>
+                                    <li class="footerListLi col-md-4 col-sm-6 col-12">
+                                        <i class="icon-dot footerDotIcon"></i>
+                                        <a href="#" class="footerListAnchor">تجارة منزلية</a>
+                                    </li>
+                                <!-- </dl> -->
+                            </ul>
+                        </div>
+                    </div>        
+                </div>
+                <div class="col-lg-4 col-12 order-lg-2 order-1" data-aos-duration="600" data-aos-once="true"  data-aos="fade-down">
+                    <div class="footerLogoContainer d-flex flex-column align-items-center">
+                        <div class="footerLogoDiv">
+                            <a href="#"><img src="./assets/imgs/logo-w3-2.png" alt="yanb3 logo"></a>
+                        </div>
+                        <h4 class="footerHeader">بوابة ينبع الالكترونية</h4>
+                        <ul class="footerIconsUl d-flex justify-content-center w-100">
+                            <li class="footerIconsLi">
+                                <a href="#" class="footerIconAnchor">
+                                    <svg data-src="./assets/imgs/telegram.svg" class="footerIconImage"></svg>
+                                </a>
+                            </li>
+                            <li class="footerIconsLi">
+                                <a href="#" class="footerIconAnchor">
+                                    <svg data-src="./assets/imgs/instgram.svg" class="footerIconImage"></svg>
+                                </a>
+                            </li>
+                            <li class="footerIconsLi">
+                                <a href="#" class="footerIconAnchor">
+                                    <svg data-src="./assets/imgs/twitter.svg" class="footerIconImage"></svg>
+                                </a>
+                            </li>
+                            <li class="footerIconsLi">
+                                <a href="#" class="footerIconAnchor">
+                                    <svg data-src="./assets/imgs/facebook.svg" class="footerIconImage"></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyRightDiv">
+            <div class="container d-flex flex-column flex-sm-row align-items-center" >
+                <p class="ml-sm-auto my-sm-0 my-2" >تصميم وتطوير</p>
+                <p class="mr-sm-auto my-sm-0 my-2">جميع الحقوق محفوظة <span class="yearSpan"></span></p>
+            </div>
+        </div>
+    </footer>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/owlcarousel/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        document.querySelector(".yearSpan").textContent=new Date().getFullYear();
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                dots:true,
+                // nav:true,
+                // navText:["<i class='fas fa-chevron-left'></i>" , "<i class='fas fa-chevron-right'></i>"],
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    760:{
+                        items:1
+                    },
+                    1000:{
+                        items:2
+                    }
+                }
+            })
+        })
+    </script>
+
+</body>
+
+</html>
